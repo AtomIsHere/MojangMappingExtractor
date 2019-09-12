@@ -31,7 +31,7 @@ public class Main {
 
         String version = args[0];
 
-        File minecraftFile = getMinecraftFile();
+        File minecraftFile;
         if(args.length == 3 && args[1].equalsIgnoreCase("-minecraft")) {
             minecraftFile = new File(args[2]);
 
