@@ -1,0 +1,5 @@
+MojangMappingExtractor.iml
+dependency-reduced-pom.xml
+target/
+mappings/
+.idea/
